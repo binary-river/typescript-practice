@@ -12,6 +12,4 @@ let twoDArr = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
 let tup1 = [1, 2];
 //union tuple
 let tup2 = [1, "hello", true];
-tup1.push(2);
-tup1.push(3);
 export {};
