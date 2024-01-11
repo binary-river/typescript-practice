@@ -15,5 +15,5 @@ let post = {
     title: "title1",
 };
 const len = post.author.length;
-console.log(len);
 export {};
+// console.log(len);
