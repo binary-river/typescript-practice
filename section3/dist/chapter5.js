@@ -1,13 +1,8 @@
+//type inference
 let a = 10;
-console.log(typeof a);
-// a = "abc";
-let b = {
-    name: "hello",
-    age: 20,
-};
-let c = {
-    name: "world",
-    age: 30,
-};
-console.log(b === c);
+// number type
+const b = 20;
+//number literal type 
+let arr1 = [1, "a", 3, true];
 export {};
+//Best Common Type inference / (string | number | boolean )[] type 
