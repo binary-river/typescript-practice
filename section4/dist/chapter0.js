@@ -22,5 +22,4 @@ function funcE(...rest) {
     rest.forEach((it) => sum += it);
     console.log(sum);
 }
-funcE(1, 2, 3, 4, 5);
 export {};
