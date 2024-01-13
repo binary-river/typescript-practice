@@ -29,4 +29,3 @@ function funcE(...rest:number[]) {
     console.log(sum);
 }
 
-
