@@ -19,6 +19,15 @@ let p:Person = {
     },
 }
 
+let p2:Person = {
+    name:"person2",
+    nickname:"nick2",
+    sayHello:(a:string) => console.log("person2 test"),
+    sayHello(a:number,b:string) {
+        console.log("person2 test2")
+    },
+}
+
 // console.log(p);
 p.sayGood(10000);
 p.sayHello("John")

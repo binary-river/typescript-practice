@@ -32,4 +32,4 @@ let animal:Animal = {
     bark:true,
 }
 
-warning(animal);
+warning(animal)
